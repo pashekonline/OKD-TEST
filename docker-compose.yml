@@ -1,6 +1,7 @@
 version: "3.9"
 services:
   web:
+    container_name: okd-test
     build: .
     ports:
       - "8080:5000"
